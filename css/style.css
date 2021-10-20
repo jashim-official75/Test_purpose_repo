@@ -32,11 +32,11 @@ body
 form
 {
 
-    margin:90%  auto;
+    margin:10%  auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 label
 {
@@ -48,9 +48,9 @@ label
 }
 .inputBx input
 {
-    width: 100%;
+    width: 120%;
     height: 35px;
-    background:hover;
+    background:#252525;
     border: 0;
     outline: none;
     color:#fff;
@@ -63,8 +63,6 @@ label
 .inputBx input:focus
 {
     border: 1px solid #ddd;
-    width: 120%;
-
 }
 ::placeholder
 {
